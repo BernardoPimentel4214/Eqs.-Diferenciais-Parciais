@@ -5,7 +5,6 @@ import matplotlib.widgets as widgets
 import matplotlib.animation as animation
 
 x, t, y, s = sp.symbols("x, t, y, s") # Posição, tempo, variável de integração de posição, variável de integração de tempo.
-gauss = sp.exp(-(x - 2)**2 / (2 * 3**2))
 
 # Monta a interface:
 
